@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: Set Supporter Level as Key Supporter and verify the details
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 42.553 s <<< FAILURE! - in Set Supporter Level as Key Supporter and verify the details
+Login to Salesforce URL and Set Supporter level as Key Supporter(Set Supporter Level as Key Supporter and verify the details)  Time elapsed: 42.553 s  <<< ERROR!
+cucumber.runtime.AmbiguousStepDefinitionsException: 
+"I retrieve Name, Supporter Level and Levels of service fields under Details Page" matches more than one step definition:
+  "^I retrieve (.*) and (.*) fields under Details Page$" in SalesforceStepDefinitions.i_retrieve_details_High_NotApplicablr(String,String)
+  "^I retrieve (.*), (.*) and (.*) fields under Details Page$" in SalesforceStepDefinitions.i_retrieve_details(String,String,String)
+
+

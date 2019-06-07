@@ -1,0 +1,72 @@
+{
+  "signup": {
+    "supporter": {
+      "supporterType": "Individual",
+      "externalId": "12345",
+      "reAppealID": "X11Onl",
+      "bTakeFirstPaymentImmediately": true,
+      "organisation": {
+        "name": "Awesome Corp",
+        "organisationType": "Company/Business"
+      },
+      "dob": "1981-12-12",
+      "gender": "Male",
+      "contactDetails": {
+        "email": "user1@gmail.com",
+        "mobilePhoneNumber": "0412345678",
+        "homePhoneNumber": "0398123456",
+        "workPhoneNumber": "0398654321"
+      },
+      "addresses": [{
+        "addressLine1": "1 Munstan Parade",
+        "addressLine2": "1",
+        "addressType": "postal",
+        "suburb": "Collingwood",
+        "state": "VIC",
+        "country": "Mauritius",
+        "countryID": "2031",
+        "postCode": "3066"
+      }],
+      "engagement": {
+        "sourceChannel": "Supporter_Online",
+        "referralURL": "https://www.oxfam.org.au/my/donate/make-a-monthly-donation-program",
+        "ipAddress" : "103.199.119.138"
+      },
+      "gift":
+      {
+        "isRecurring": true,
+        "giftAmount": "50",
+        "recurringGiftDetails": {
+          "giftFrequency": "Monthly",
+          "giftStartDate": "1981-12-10",
+          "isAutoUpgrade": true,
+          "programName": "Aware"
+        },
+        "paymentDetails": [{
+          "skipCCRegistration": false,
+          "paymentType" : "CREDIT_CARD",
+          "fraudGuardResponse": "",
+          "transactionDetails": {
+            "transactionAmount": "30.00",
+            "transactionDate": "2017-07-19",
+            "settlementDate" : "2017-07-19",
+            "transactionResponse": "Approved or completed successfully",
+            "transactionSummaryCode":"0",
+            "transactionResponseCode":"00",
+            "referenceNumber": "990753473"
+          },
+          "creditCardDetails":
+          {
+            "ccType": "Visa_Card",
+            "ccNumber": "424242...24242",
+            "ccToken" : "151026028",
+            "ccExpiryMonth": "10",
+            "ccExpiryYear": "20",
+            "ccSecurityCode": "564",
+            "nameOnCard": "Mr Bean"
+          }
+        }]
+      }
+    }
+  }
+}
